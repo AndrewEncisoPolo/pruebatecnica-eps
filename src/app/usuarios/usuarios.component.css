@@ -1,0 +1,43 @@
+table {
+    width: 100%;
+}
+  
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+td, th {
+    width: 25%;
+}
+
+.mat-column-options{
+width: 40px !important;  
+}
+.mat-column-idUsuario{
+width: 30px !important;  
+}
+.mat-column-tipoUsuario{
+width: 40px !important;  
+}
+.mat-column-nombre{
+width: 80px !important;  
+}
+.mat-column-tipoDocumento{
+width: 100px !important;  
+}
+.mat-column-documento{
+width: 40px !important;  
+}
+.mat-column-departamento{
+width: 40px !important;  
+}
+.mat-column-ciudad{
+width: 40px !important;  
+}
+.mat-column-sede{
+width: 100px !important;  
+}
+.mat-column-direccion{
+width: 80px !important;  
+}

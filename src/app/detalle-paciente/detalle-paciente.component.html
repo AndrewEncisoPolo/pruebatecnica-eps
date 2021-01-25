@@ -1,0 +1,59 @@
+<app-navbar></app-navbar>
+<div class="container mt-3">
+    <h3>Detalle Paciente</h3>
+    <div class="row">
+        <div class="col-sm-4 form-group">
+            <label for="">ID</label>
+            <input type="text" class="form-control" value="{{paciente[0].idPaciente}}" disabled>
+        </div>
+        <div class="col-sm-4 form-group">
+            <label for="">Nombre</label>
+            <input type="text" class="form-control" value="{{paciente[0].nombre}}" disabled>
+        </div>
+        <div class="col-sm-4 form-group">
+            <label for="">Tipo Documento</label>
+            <input type="text" class="form-control" value="{{paciente[0].tipoDocumento}}" disabled>
+        </div>
+        <div class="col-sm-4 form-group">
+            <label for="">Documento</label>
+            <input type="text" class="form-control" value="{{paciente[0].documento}}" disabled>
+        </div>
+        <div class="col-sm-4 form-group">
+            <label for="">NroSeguroSocial</label>
+            <input type="text" class="form-control" value="{{paciente[0].nroSeguroSocial}}" disabled>
+        </div>
+        <div class="col-sm-4 form-group">
+            <label for="">Departamento</label> 
+            <select class="form-control" (change)="getCiudad($event.target.value)">
+                <option value="">Seleccionar</option>
+                <option value="{{item.idDepartamento}}" *ngFor="let item of departamento;">{{item.nombre}}</option>
+            </select>
+        </div>
+        <div class="col-sm-4 form-group">
+            <label for="">Ciudad</label>
+            <select class="form-control">
+                <option value="">Seleccionar</option>
+                <option value="{{item.idCiudad}}" *ngFor="let item of ciudad;">{{item.nombre}}</option>
+            </select>
+        </div>
+        <div class="col-sm-4 form-group">
+            <label for="">Sede</label>
+            <input type="text" class="form-control" value="{{paciente[0].sede}}">
+        </div>
+        <div class="col-sm-4 form-group">
+            <label for="">CodigoPostal</label>
+            <input type="text" class="form-control" value="{{paciente[0].codigoPostal}}">
+        </div>
+        <div class="col-sm-4 form-group">
+            <label for="">Direccion</label>
+            <input type="text" class="form-control" value="{{paciente[0].direccion}}">
+        </div>
+        <div class="col-sm-4 form-group">
+            <label for="">Telefono</label>
+            <input type="text" class="form-control" value="{{paciente[0].telefono}}">
+        </div>
+        <div class="col-sm-12 form-group">
+            <button class="btn btn-danger w-100">Guardar</button>
+        </div>
+    </div>
+</div>

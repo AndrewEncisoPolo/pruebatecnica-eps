@@ -1,0 +1,43 @@
+table {
+    width: 100%;
+}
+  
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+td, th {
+    width: 25%;
+}
+
+.mat-column-options{
+    width: 60px !important;
+}
+.mat-column-idPaciente{
+    width: 30px !important;
+}
+.mat-column-nombre{
+    width: 90px !important;
+}
+.mat-column-tipoDocumento{
+    width: 120px !important;
+}
+.mat-column-documento{
+    width: 80px !important;
+}
+.mat-column-nroSeguroSocial{
+    width: 80px !important;
+}
+.mat-column-departamento{
+    width: 80px !important;
+}
+.mat-column-ciudad{
+    width: 80px !important;
+}
+.mat-column-sede{
+    width: 90px !important;
+}
+.mat-column-direccion{
+    width: 100px !important;
+}

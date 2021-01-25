@@ -1,0 +1,40 @@
+table {
+    width: 100%;
+}
+  
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+td, th {
+    width: 25%;
+}
+
+.mat-column-options{
+  width: 40px !important;  
+}
+.mat-column-idCita{
+  width: 50px !important;  
+}
+.mat-column-paciente{
+  width: 100px !important;  
+}
+.mat-column-doctor{
+  width: 100px !important;  
+}
+.mat-column-sede{
+  width: 100px !important;  
+}
+.mat-column-idPaciente{
+  width: 40px !important;  
+}
+.mat-column-idDoctor{
+  width: 40px !important;  
+}
+.mat-column-idSede{
+  width: 40px !important;  
+}
+.mat-column-fecha{
+  width: 100px !important;  
+}
